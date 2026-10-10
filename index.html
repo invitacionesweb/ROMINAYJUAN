@@ -60,20 +60,20 @@
         <img data-aos="fade-up" src="./img-editables/relicario.png" alt="">
         <h3 data-aos="fade-up">Civil</h3>
         <p data-aos="fade-up">13:00 Hs - Campo Maipú.</p>
-        <a  data-aos="fade-up" class="boton" target="_blank" href="">Cómo llegar</a>
+        <a  data-aos="fade-up" class="boton" target="_blank" href="https://www.google.com/maps/dir//Tropero+Sosa+800,+M5515+Maip%C3%BA,+Mendoza/@-32.9915583,-68.7851498,1543m/data=!3m1!1e3!4m18!1m8!3m7!1s0x967e0cced9465ad7:0xd97034162b0ecb2c!2sTropero+Sosa+800,+M5515+Maip%C3%BA,+Mendoza!3b1!8m2!3d-32.9924174!4d-68.7803315!16s%2Fg%2F11bw448skp!4m8!1m0!1m5!1m1!1s0x967e0cced9465ad7:0xd97034162b0ecb2c!2m2!1d-68.7803315!2d-32.9924174!3e0?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D">Cómo llegar</a>
       </div>
       <div  class="information-bloque">
         <img  data-aos="fade-up"  class="fecha" src="./img-editables/fecha1.png" alt="">
         <img data-aos="fade-up" src="./img-editables/relicario.png" alt="">
         <h3 data-aos="fade-up">Ceremonia religiosa</h3>
         <p data-aos="fade-up">17:00 Hs - Basílica Luján de Cuyo.</p>
-        <a  data-aos="fade-up" class="boton" target="_blank" href="">Cómo llegar</a>
+        <a  data-aos="fade-up" class="boton" target="_blank" href="https://www.google.com/maps/dir//Bas%C3%ADlica+Nuestra+Se%C3%B1ora+de+Luj%C3%A1n,+Sta.+Mar%C3%ADa+de+Oro+289,+M5507+Mendoza/@-33.0394844,-68.8814633,771m/data=!3m1!1e3!4m17!1m7!3m6!1s0x967e75159b40d8e5:0x2c146bdf8458b092!2sBas%C3%ADlica+Nuestra+Se%C3%B1ora+de+Luj%C3%A1n!8m2!3d-33.0394844!4d-68.8788884!16s%2Fg%2F11bychm6pw!4m8!1m0!1m5!1m1!1s0x967e75159b40d8e5:0x2c146bdf8458b092!2m2!1d-68.8788884!2d-33.0394844!3e0?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D">Cómo llegar</a>
       </div>
       <div  class="information-bloque">
        
         <h3 data-aos="fade-up">Fiesta</h3>
         <p data-aos="fade-up">Salón Luna India.</p>
-        <a  data-aos="fade-up" class="boton" target="_blank" href="">Cómo llegar</a>
+        <a  data-aos="fade-up" class="boton" target="_blank" href="https://www.google.com/maps/dir//Luna+India,+Castro+Barros,+M5513,+Mendoza/@-33.0066399,-68.7398694,771m/data=!3m1!1e3!4m17!1m7!3m6!1s0x967e72b85971342b:0xbbbd1aeba7b67a88!2sLuna+India!8m2!3d-33.0066399!4d-68.7372945!16s%2Fg%2F11b7r5pgvx!4m8!1m0!1m5!1m1!1s0x967e72b85971342b:0xbbbd1aeba7b67a88!2m2!1d-68.7373389!2d-33.0066419!3e0?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D">Cómo llegar</a>
       </div>
 
     </div>
@@ -155,42 +155,62 @@
 </main>
 <div class="forms">
 
-        <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbyySB8UEMF2JwLQCuas8z4bWOyUQtWYn10kqVJpaYiKA8NijysKFd36DKmrK0XaFssh/exec" class="formulario" id="asistenciaForm">
+       <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbyySB8UEMF2JwLQCuas8z4bWOyUQtWYn10kqVJpaYiKA8NijysKFd36DKmrK0XaFssh/exec" class="formulario" id="asistenciaForm">
 
-            <label class="formtitle">Sólo faltas vos, Venís?</label>
-<p data-aos="fade-up">Completá un formulario por persona <br> antes del 15 de Diciembre.</p>
+    <label class="formtitle">Sólo faltás vos, ¿venís?</label>
+    <p data-aos="fade-up">Completá un formulario por persona <br> antes del 15 de diciembre.</p>
 
-            <input type="text" name="NOMBRE" placeholder="Nombre" required />
-            <input type="text" name="APELLIDO" placeholder="Apellido" required />
+    <input type="text" name="NOMBRE" placeholder="Nombre" required />
+    <input type="text" name="APELLIDO" placeholder="Apellido" required />
 
-            <select name="ASISTENCIA_BODA" id="asistenciaBoda" required>
-                <option value="" disabled selected>¿Venís a la boda? 22/11</option>
-                <option value="Sí">Sí, ¡ahí estaré!</option>
-                <option value="No">No puedo ir</option>
-                <option value="Aún no lo decido">Aún no lo decido</option>
-            </select>
+    <select name="EDAD" required>
+        <option value="" disabled selected>¿Adulto o menor?</option>
+        <option value="Adulto">Adulto</option>
+        <option value="Menor">Menor de 12 (menú infantil)</option>
+    </select>
 
-            <select name="ASISTENCIA_CIVIL" required>
-                <option value="" disabled selected>¿Venís al civil? Viernes 20/11</option>
-                <option value="Sí">Sí</option>
-                <option value="No">No</option>
-                <option value="Aún no lo decido">Aún no lo decido</option>
-            </select>
+    <select name="ASISTENCIA_CIVIL" id="asistenciaCivil" required>
+        <option value="" disabled selected>¿Venís al civil? Viernes 20/11</option>
+        <option value="Sí">Sí</option>
+        <option value="No">No</option>
+    </select>
 
-            <select name="DIETA" id="dieta" required>
-                <option value="" disabled selected>¿Alguna dieta especial?</option>
-                <option value="Como de todo">Como de todo</option>
-                <option value="Celíaca">Celíaca</option>
-                <option value="Vegetariana">Vegetariana</option>
-                <option value="Menú infantil">Menú infantil</option>
-            </select>
+    <select name="ASISTENCIA_BODA" id="asistenciaBoda" required>
+        <option value="" disabled selected>¿Venís a la boda? Domingo 22/11</option>
+        <option value="Sí">Sí, ¡ahí estaré!</option>
+        <option value="No">No puedo ir</option>
+    </select>
 
-            <input type="text" name="CANCION" id="cancion" placeholder="¿Qué canción no puede faltar? 🎶" />
+    <div id="extrasBoda">
+        <select name="DIETA" id="dieta" required>
+            <option value="" disabled selected>¿Alguna dieta especial?</option>
+            <option value="Como de todo">Como de todo</option>
+            <option value="Vegetariana">Vegetariana</option>
+            <option value="Vegana">Vegana</option>
+            <option value="Celíaca">Celíaca</option>
+        </select>
+        <input type="text" name="CANCION" id="cancion" placeholder="¿Qué canción no puede faltar? 🎶" />
+    </div>
 
-            <textarea name="MENSAJE" placeholder="Dejale un mensaje a los novios 🤍"></textarea>
+    <textarea name="MENSAJE" placeholder="Dejale un mensaje a los novios 🤍"></textarea>
 
-            <button type="submit" class="boton">Enviar</button>
-        </form>
+    <button type="submit" class="boton">Enviar</button>
+</form>
+
+<script>
+  // Si no viene a la boda, oculta dieta y canción (y deja de exigir la dieta)
+  (function () {
+    const boda = document.getElementById("asistenciaBoda");
+    const extras = document.getElementById("extrasBoda");
+    const dieta = document.getElementById("dieta");
+    boda.addEventListener("change", function () {
+      const viene = boda.value === "Sí";
+      extras.style.display = viene ? "flex" : "none";
+      dieta.required = viene;
+      if (!viene) dieta.value = "";
+    });
+  })();
+</script>
 
         <script>
         (function () {

@@ -245,7 +245,7 @@ main img {
 .forms {
    
     text-align: center;
-    padding: 40px 0 20px 0;
+    padding: 40px 0 40px 0;
     background-image: url(./img-editables/4.png);
    padding:96px 0 78px 0;
     background-size: cover;
@@ -523,7 +523,12 @@ footer img {
     margin: 0;
 
 }
-
+#extrasBoda {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
 .contenido a {
     color: var(--color-principal);
 }
